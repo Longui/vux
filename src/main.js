@@ -12,6 +12,8 @@ import { sync } from 'vuex-router-sync'
 Vue.use(VueRouter)
 Vue.use(Vuex)
 
+console.log('test')
+
 require('es6-promise').polyfill()
 
 /** i18n **/
